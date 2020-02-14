@@ -1,0 +1,15 @@
+img {
+    box-shadow: 5px 5px 12px grey;
+}
+
+h1  {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+a {
+    color: rgb(104, 1, 1);
+}
