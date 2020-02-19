@@ -42,14 +42,14 @@
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #320101;
   text-align: center;
   cursor: pointer;
   width: 100%;
 }
 
 .button:hover {
-  background-color: #555;
+  background-color: #640202;
 } 
 
 h1  {
@@ -62,4 +62,9 @@ h2 {
 
 a {
     color: rgb(104, 1, 1);
+}
+aside {
+ background-color:#320101;
+ text-align:center;
+ text-transform: none;
 }

@@ -4,11 +4,11 @@ from __future__ import unicode_literals
 from datetime import datetime
 
 
-AUTHOR = 'Locobots'
+AUTHOR = 'LocoBOTS'
 #SITEURL = 'http://yoursite.com'
-SITENAME = 'Locobots'
-SITETITLE = 'Locobots'
-SITESUBTITLE = 'Núcleo de desenvolvimento de robótica'
+SITENAME = 'LocoBOTS'
+SITETITLE = 'LocoBOTS'
+SITESUBTITLE = 'Núcleo de desenvolvimento em robótica'
 SITEDESCRIPTION = 'Dê asas aos Locos e eles darão vidas às máquinas'
 SITELOGO = 'https://avatars3.githubusercontent.com/u/40442965?s=400&v=4'
 #FAVICON = SITEURL + '/images/favicon.ico'
