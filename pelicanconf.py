@@ -52,7 +52,7 @@ LINKS = (('BLOG', '/'),)
 SOCIAL = (('facebook', 'https://www.facebook.com/locobots'),
           ('instagram', 'https://www.instagram.com/locobots.ufop/'),
           ('github', 'https://www.github.com/locobots'),
-          ('linkedin', '#')
+          ('linkedin', 'https://www.linkedin.com/company/n%C3%BAcleo-de-desenvolvimento-em-rob%C3%B3tica-locobots/about/')
           )
 #MENUITEMS = (('Archives', '/archives.html'),
 #             ('Categories', '/categories.html'),

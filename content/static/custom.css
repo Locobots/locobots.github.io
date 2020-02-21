@@ -1,4 +1,6 @@
- /* Three columns side by side */
+/*----------------- referente aos cartoes de equipe --------------------*/
+
+ /* 03 colunas lado a lado (usado em equipe) */
 .column {
   float: left;
   width: 31%;
@@ -7,7 +9,7 @@
   padding: 0 8px;
 }
 
-/* Display the columns below each other instead of side by side on small screens */
+/* IMPORTANTE: reconhece telas pequenas e reorganiza os elementos para seguirem abaixo um dos outros */
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
@@ -15,12 +17,12 @@
   }
 }
 
-/* Add some shadows to create a card effect */
+/* adiciona sombra nos elementos das colunas */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Some left and right padding inside the container */
+/* adiciona espaços laterais aos elementos */
 .container {
   padding: 0 16px;
 }
@@ -31,7 +33,12 @@
   clear: both;
   display: table;
 }
+/*----------------- referente aos cartoes de equipe --------------------*/
 
+
+
+
+/*------------- altera o visual dentro dos cartoes de equipe -------------*/
 .title {
   color: grey;
 }
@@ -42,29 +49,93 @@
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #320101;
+  background-color: #050316;
   text-align: center;
   cursor: pointer;
   width: 100%;
 }
 
 .button:hover {
-  background-color: #640202;
+  transform: (0.8);
+  background-color: #0f0943;
 } 
+/*------------- altera o visual dentro dos cartoes de equipe -------------*/
 
+
+
+/*------------- esse eu deixei igual ao custom.css original --------------*/
 h1  {
     font-weight: bold;
+    text-align: center;
 }
 
 h2 {
     font-weight: bold;
+    text-align: center;
+}
+/*------------- esse eu deixei igual ao custom.css original --------------*/
+
+
+.sobre {
+    text-align: justify;
+    font-size: 1.0em;
+    margin:auto;
+}
+
+.lema {
+    text-align: center;
+    font-style: italic;
+    font-size:1.4em;
+    padding-top: 15px;    
+}
+
+.coluna_direita {
+	height: auto;
+	padding-top: 30px;
+}
+
+.bg-paralax {
+  background:url("https://raw.githubusercontent.com/Locobots/locobots.github.io/master/images/20190829_173001.jpg") no-repeat;
+  background-size:75%;
+  background-position:right bottom;
+  background-attachment:fixed;
+  padding-bottom:50%;
+  background-color: #0a7772;
+}
+
+@media screen and (max-width: 650px) {
+.bg-paralax {
+  background-size:125%;
+  background-position:center bottom;
+  padding-bottom:50%;
+}
+
+.imagem{
+display:block;
+width:25%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.texto {
+padding: 20px;
+text-align:center;
+font-size: 1em;
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.single {
+	margin: 0px;
 }
 
 a {
     color: rgb(104, 1, 1);
 }
 aside {
- background-color:#320101;
+ background-color:#050316;
  text-align:center;
  text-transform: none;
 }
+
