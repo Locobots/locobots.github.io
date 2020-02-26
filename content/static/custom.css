@@ -1,7 +1,13 @@
+/*--------------------------------------------Conteiner--------------------------------------------*/
+
 .backgroud {
   display: block;
   height: 100%;
   width: 100%;
+}
+
+.single {
+	margin: 0px;
 }
 
 .cartao{
@@ -9,13 +15,20 @@
   padding: 8px;
   min-height: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: stretch;
   align-content: space-between;
   flex-direction: column;
   border-radius: 20px;
   color: #0a7772ff;
   font-weight: bold
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 1vw;
+  background-color: #f9e7c3;
 }
 
 .bg-color{
@@ -35,19 +48,6 @@
   flex: 1;
 }
 
-
-/*----------------- referente aos cartoes de equipe --------------------*/
-
- /* 03 colunas lado a lado (usado em equipe) */
-.column {
-  float: left;
-  width: 31%;
-  min-width: 174px;
-  margin-bottom: 16px;
-  padding: 8px;
-}
-
-/* IMPORTANTE: reconhece telas pequenas e reorganiza os elementos para seguirem abaixo um dos outros */
 @media screen and (max-width: 768px) {
   .column {
     width: 100%;
@@ -60,40 +60,54 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .slide{
-    max-height: 100%;
-    width: 70%;
-    object-fit: contain;
-    margin-bottom: 5%;
-  }
 }
 
-/* adiciona sombra nos elementos das colunas */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* adiciona espaços laterais aos elementos */
-.container {
-  padding: 0 16px;
-}
-
-/* Clear floats */
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-/*----------------- referente aos cartoes de equipe --------------------*/
-
-
-
-
-/*------------- altera o visual dentro dos cartoes de equipe -------------*/
+/*--------------------------------------------Texto--------------------------------------------*/
 .title {
   color: grey;
 }
 
+h1  {
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.texto {
+  padding: 20px;
+  flex: 1;
+  text-align:center;
+  font-size: 1em;
+  width: 70%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  }
+
+.lema {
+  text-align: center;
+  font-style: italic;
+  font-size:1.4em;
+  padding-top: 15px;    
+}
+
+a {
+  color: rgb(104, 1, 1);
+}
+
+/*--------------------------------------------Componentes--------------------------------------------*/
+aside {
+  background-color:#050316;
+  text-align:center;
+  text-transform: none;
+ }
+ 
 .button {
   border: none;
   outline: 0;
@@ -111,40 +125,8 @@
   transform: (0.8);
   background-color: #0f0943;
 } 
-/*------------- altera o visual dentro dos cartoes de equipe -------------*/
 
-
-
-/*------------- esse eu deixei igual ao custom.css original --------------*/
-h1  {
-    font-weight: bold;
-    text-align: center;
-}
-
-h2 {
-    font-weight: bold;
-    text-align: center;
-    font-size: 3vw;
-    
-}
-/*------------- esse eu deixei igual ao custom.css original --------------*/
-
-
-
-
-.lema {
-    text-align: center;
-    font-style: italic;
-    font-size:1.4em;
-    padding-top: 15px;    
-}
-
-.coluna_direita {
-  height: 100%;
-  width: 100%;
-	padding-top: 30px;
-}
-
+/*--------------------------------------------Imagens--------------------------------------------*/
 .bg-paralax {
   background-repeat: no-repeat;
   background-size:75%;
@@ -154,13 +136,13 @@ h2 {
   background-color: #0a7772;
 }
 
-@media screen and (max-width: 650px) {
-.bg-paralax {
-  background-size:125%;
-  background-position:center bottom;
-  padding-bottom:50%;
+.slide{
+  max-height: 100%;
+  width: 70%;
+  object-fit: contain;
+  margin-bottom: 5%;
 }
-}
+
 .imagem{
 display:block;
 flex : 1;
@@ -183,28 +165,12 @@ object-fit: cover;
   height: 100%;
 }
 
-.texto {
-padding: 20px;
-flex: 1;
-text-align:center;
-font-size: 1em;
-width: 70%;
-height: 100%;
-margin-left: auto;
-margin-right: auto;
-font-weight: bold;
+@media screen and (max-width: 650px) {
+  .bg-paralax {
+    background-size:125%;
+    background-position:center bottom;
+    padding-bottom:50%;
+  }
 }
 
-.single {
-	margin: 0px;
-}
-
-a {
-    color: rgb(104, 1, 1);
-}
-aside {
- background-color:#050316;
- text-align:center;
- text-transform: none;
-}
 
