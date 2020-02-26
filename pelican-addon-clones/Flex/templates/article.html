@@ -25,6 +25,11 @@
       {{ translations.translations_for(article) }}
     {% endif %}
     <h1 id="{{ article.slug }}">{{ article.title }}</h1>
+    {% if article.cover %}
+      <span> 
+          <img class = "cover" src="{{ article.cover }}" alt=""> 
+      </span>
+    {% endif %}
     <p>
       {{ _('Posted on %(when)s in %(category)s',
            when=article.locale_date,
