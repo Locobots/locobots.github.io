@@ -1,3 +1,41 @@
+.backgroud {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.cartao{
+  flex: 1;
+  padding: 8px;
+  min-height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: space-between;
+  flex-direction: column;
+  border-radius: 20px;
+  color: #0a7772ff;
+  font-weight: bold
+}
+
+.bg-color{
+  background-color: #0a7772ff;
+  color: white;
+}
+
+.card_view {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  align-content: flex-end;
+  margin-bottom: 5%;
+  flex: 1;
+}
+
+
 /*----------------- referente aos cartoes de equipe --------------------*/
 
  /* 03 colunas lado a lado (usado em equipe) */
@@ -6,14 +44,27 @@
   width: 31%;
   min-width: 174px;
   margin-bottom: 16px;
-  padding: 0 8px;
+  padding: 8px;
 }
 
 /* IMPORTANTE: reconhece telas pequenas e reorganiza os elementos para seguirem abaixo um dos outros */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
   .column {
     width: 100%;
     display: block;
+  }
+  .card_view{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .slide{
+    max-height: 100%;
+    width: 70%;
+    object-fit: contain;
+    margin-bottom: 5%;
   }
 }
 
@@ -53,6 +104,7 @@
   text-align: center;
   cursor: pointer;
   width: 100%;
+  object-fit: contain;
 }
 
 .button:hover {
@@ -72,15 +124,13 @@ h1  {
 h2 {
     font-weight: bold;
     text-align: center;
+    font-size: 3vw;
+    
 }
 /*------------- esse eu deixei igual ao custom.css original --------------*/
 
 
-.sobre {
-    text-align: justify;
-    font-size: 1.0em;
-    margin:auto;
-}
+
 
 .lema {
     text-align: center;
@@ -90,12 +140,13 @@ h2 {
 }
 
 .coluna_direita {
-	height: auto;
+  height: 100%;
+  width: 100%;
 	padding-top: 30px;
 }
 
 .bg-paralax {
-  background:url("https://raw.githubusercontent.com/Locobots/locobots.github.io/master/images/20190829_173001.jpg") no-repeat;
+  background-repeat: no-repeat;
   background-size:75%;
   background-position:right bottom;
   background-attachment:fixed;
@@ -112,18 +163,36 @@ h2 {
 }
 .imagem{
 display:block;
-width:25%;
+flex : 1;
 margin-left: auto;
 margin-right: auto;
+object-fit: cover;
+}
+
+.icon{
+  width:30%;
+  object-fit: contain;
+}
+
+.slide{
+  max-height: 200px
+}
+
+.imag-card{
+  width: 100%;
+  height: 100%;
 }
 
 .texto {
 padding: 20px;
+flex: 1;
 text-align:center;
 font-size: 1em;
 width: 70%;
+height: 100%;
 margin-left: auto;
 margin-right: auto;
+font-weight: bold;
 }
 
 .single {
