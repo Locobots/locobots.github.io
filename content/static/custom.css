@@ -15,7 +15,7 @@
   padding: 8px;
   min-height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: stretch;
   align-content: space-between;
   flex-direction: column;
@@ -49,17 +49,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-  .card_view{
-    width: 100%;
-    height: 100%;
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+  
 }
 
 /*--------------------------------------------Texto--------------------------------------------*/
@@ -138,14 +128,13 @@ aside {
 
 .slide{
   max-height: 100%;
-  width: 70%;
+  width: 100%;
   object-fit: contain;
   margin-bottom: 5%;
 }
 
 .imagem{
 display:block;
-flex : 1;
 margin-left: auto;
 margin-right: auto;
 object-fit: cover;
@@ -157,7 +146,8 @@ object-fit: cover;
 }
 
 .slide{
-  max-height: 200px
+  max-height: 200px;
+  max-width: 33%;
 }
 
 .imag-card{
@@ -165,7 +155,7 @@ object-fit: cover;
   height: 100%;
 }
 
-cover{
+.cover{
   display:block;
   flex : 1;
   margin-left: auto;
@@ -173,7 +163,7 @@ cover{
   object-fit: cover;
 }
 
-featured_image{
+.featured_image{
   display:block;
   flex : 1;
   margin-left: auto;
@@ -181,12 +171,29 @@ featured_image{
   object-fit: cover;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
   .bg-paralax {
     background-size:125%;
     background-position:center bottom;
     padding-bottom:50%;
   }
+  .card_view{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 10vw;
+  }
+  .card {
+    max-width: 100%;
+  }
+  .slide{
+    max-width: 100%;
+  }
+
 }
 
 
