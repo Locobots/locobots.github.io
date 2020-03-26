@@ -7,7 +7,7 @@ Author: Locobots
         <div class = "cartao"> 
             <div class="texto">
                 <h2>Locobots</h2>
-                A Equipe LocoBots da Universidade Federal de Ouro Preto (UFOP), é uma organização sem fins lucrativos, formada por estudantes de todos os cursos do Campus ICEA. Organizada com objetivo educacional,  visa pôr em prática os conhecimentos teóricos adquiridos em sala de aula. 
+                O Núcleo de Desenvolvimento em Robótica (LocoBots) da Universidade Federal de Ouro Preto (UFOP), é uma organização sem fins lucrativos, composta por graduandos dos cursos existentes no Campus ICEA da UFOP. A equipe tem como principal foco o desenvolvimento de robôs autônomos para a sua participação em competições estaduais e nacionais
             </div>
         </div>
     </section>
