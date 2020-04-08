@@ -5,7 +5,7 @@ Author: Locobots
 ## Conheça nossa equipe!
 <div class="backgroud">
   <section class="card_view">
-    <div class="cartao card">
+    <div class="cartao_equipe card">
       <img class = "imagem imag-card" src = '../images/equipe/Fernanda.jpg' alt="Fernanda">
       <div class="texto">
         <h2>Fernanda</h2>
@@ -15,7 +15,7 @@ Author: Locobots
       </div>
       <button class="button" onclick="window.location.href='https://www.instagram.com/p/B16MaQqJBbm'">Conheça-me</button>
     </div>
-    <div class="cartao card">
+    <div class="cartao_equipe card">
       <img class = "imagem imag-card" src = '../images/equipe/davidd.jpg' alt="Davidd">
       <div class="texto">
         <h2>Davidd</h2>
@@ -25,7 +25,7 @@ Author: Locobots
         </div>
         <button class="button" onclick="window.location.href='https://www.instagram.com/p/B2XsLuxAgNy/">Conheça-me</button>
     </div>
-    <div class="cartao card">
+    <div class="cartao_equipe card">
       <img class = "imagem imag-card" src = '../images/equipe/nissin.jpg' alt="Nissin">
       <div class="texto">
         <h2 class>Jamisson</h2>
