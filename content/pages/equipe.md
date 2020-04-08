@@ -37,7 +37,7 @@ Author: Locobots
     </div>
   </section>
   <section class="card_view">
-    <div class="cartao card">
+    <div class="cartao_equipe card">
       <img class = "imagem imag-card" src = '../images/equipe/legend.jpg' alt="Legenda">
       <div class="texto">
         <h2>Alexsander</h2>
@@ -47,7 +47,7 @@ Author: Locobots
         </div>
       <button class="button" onclick="window.location.href='https://www.instagram.com/p/B2EjXXkg4FB/'">Conheça-me</button>
     </div>
-    <div class="cartao card">
+    <div class="cartao_equipe card">
       <img class = "imagem imag-card" src = '../images/equipe/suzane.jpg' alt="Suzane">
       <div class="texto">
         <h2>Suzane</h2>
@@ -57,7 +57,7 @@ Author: Locobots
         </div>
       <button class="button" onclick="window.location.href='https://www.instagram.com/p/B2OvG2Pp9bm/'">Conheça-me</button>
     </div>
-    <div class="cartao card">
+    <div class="cartao_equipe card">
       <img class = "imagem imag-card" src = '../images/equipe/thiago.jpg' alt="Thiago">
       <div class="texto">
         <h2>Thiago</h2>
@@ -69,7 +69,7 @@ Author: Locobots
     </div>
   </section>
   <section class="card_view">
-    <div class="cartao card">
+    <div class="cartao_equipe card">
     <img class = "imagem imag-card" src = '../images/equipe/edmo.jpg' alt="Edmo">
       <div class="texto">
         <h2>Edmo</h2>
@@ -79,7 +79,7 @@ Author: Locobots
       </div>
       <button class="button" onclick="window.location.href='https://www.instagram.com/p/B6QVTdSpjy8/'">Conheça-me</button>
     </div>
-    <div class="cartao card">
+    <div class="cartao_equipe card">
       <img class = "imagem imag-card" src = '../images/equipe/hefesto.jpg' alt="Hefesto">
       <div class="texto">
         <h2>Hefesto</h2>
@@ -89,7 +89,7 @@ Author: Locobots
       </div>
       <button class="button" onclick="window.location.href='https://www.instagram.com/locobots.ufop/'">Conheça-me</button>
     </div>
-    <div class="cartao card">
+    <div class="cartao_equipe card">
     <img class = "imagem imag-card" src = '../images/equipe/lucas.jpg' alt="Lucas" >
       <div class="texto">
         <h2>Lucas</h2>

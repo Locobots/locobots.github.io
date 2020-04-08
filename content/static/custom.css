@@ -3,14 +3,15 @@
 .backgroud {
   display: block;
   height: 100%;
-  width: 100%;
+  width: 80%;
+  margin: auto;
 }
 
 .single {
 	margin: 0px;
 }
 
-.cartao{
+.cartao_equipe{
   flex: 1;
   padding: 8px;
   min-height: 100%;
@@ -20,19 +21,32 @@
   align-content: space-between;
   flex-direction: column;
   border-radius: 20px;
-  color: #0a7772ff;
+  color: #fff;
+  font-weight: bold
+}
+
+.cartao_sobre{
+  flex: 1;
+  padding: 8px;
+  min-height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: stretch;
+  align-content: space-between;
+  flex-direction: column;
+  border-radius: 20px;
+  color: #0a7772;
   font-weight: bold
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
   margin: 1vw;
-  background-color: #f9e7c3;
+  background-color: #0a7772;
 }
 
 .bg-color{
-  background-color: #0a7772ff;
+  background-color: #0a7772;
   color: white;
 }
 
@@ -44,17 +58,17 @@
   align-items: stretch;
   justify-content: space-between;
   align-content: flex-end;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   flex: 1;
 }
 
 @media screen and (max-width: 768px) {
-  
+
 }
 
 /*--------------------------------------------Texto--------------------------------------------*/
 .title {
-  color: grey;
+  color: #70CCC7;
 }
 
 h1  {
@@ -84,7 +98,7 @@ h2 {
   text-align: center;
   font-style: italic;
   font-size:1.4em;
-  padding-top: 15px;    
+  padding-top: 15px;
 }
 
 a {
@@ -97,24 +111,26 @@ aside {
   text-align:center;
   text-transform: none;
  }
- 
+
 .button {
   border: none;
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: white;
-  background-color: #050316;
+  color: #0a7772;
+  background-color: #70CCC7;
   text-align: center;
   cursor: pointer;
   width: 100%;
   object-fit: contain;
+  border-radius: 100px;
+  font-weight: bold;
 }
 
 .button:hover {
   transform: (0.8);
-  background-color: #0f0943;
-} 
+  background-color: #fae4b7;
+}
 
 /*--------------------------------------------Imagens--------------------------------------------*/
 .bg-paralax {
@@ -141,18 +157,19 @@ object-fit: cover;
 }
 
 .icon{
-  width:30%;
+  width:25%;
   object-fit: contain;
 }
 
 .slide{
-  max-height: 200px;
   max-width: 33%;
+  margin-bottom: 0%;
 }
 
 .imag-card{
   width: 100%;
   height: 100%;
+  border-radius: 5%;
 }
 
 .cover{
@@ -195,5 +212,3 @@ object-fit: cover;
   }
 
 }
-
-
