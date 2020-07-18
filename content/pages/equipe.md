@@ -82,7 +82,7 @@ Author: Locobots
     <div class="cartao_equipe card">
       <img class = "imagem imag-card" src = '../images/equipe/hefesto.jpg' alt="Hefesto">
       <div class="texto">
-        <h2>Hefesto</h2>
+        <h2>LUIZ</h2>
         <p class="title">Sumô 500g</p>
         <p>LUIZ HENRIQUE MARCOS - 20 ANOS</p>
 	      <p>ENGENHARIA ELÉTRICA</p>
@@ -94,7 +94,7 @@ Author: Locobots
       <div class="texto">
         <h2>Lucas</h2>
         <p class="title">Locobits</p>
-        <p>LUCAS NOVAIS DA SILVA - 19 ANOS</p>
+        <p>LUCAS NOVAIS DA SILVA - 20 ANOS</p>
 	      <p>ENGENHARIA DE COMPUTAÇÃO</p>
       </div>
       <button class="button" onclick="window.location.href='https://www.instagram.com/p/B4AM1JLJURM/'">Conheça-me</button>
