@@ -23,7 +23,7 @@ pip3 install virtualenv
 Clone o repositorio e execute os comandos
 
 ```bash
-git checkout --track remotes/origin/content
+git fetch origin content:content
 ```
 
 ```bash
@@ -79,7 +79,7 @@ pelican content
 ``` 
 
 ``` bash
-pelican --listen 
+pelican --autoreload --listen 
 # http://localhost:8000/
 ``` 
 

@@ -21,7 +21,7 @@ CUSTOM_CSS = 'static/custom.css'
 
 ROBOTS = 'index, follow'
 
-THEME = 'Flex'
+THEME = './pelican-addon-clones/Flex'
 PATH = 'content'
 #OUTPUT_PATH = 'blog/'
 TIMEZONE = 'America/Sao_Paulo'
