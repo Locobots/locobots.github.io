@@ -34,12 +34,18 @@ git checkout content
 ```bash
 virtualenv ENV 
 #criando ambiente virtual
+
+#No Windows:
+python -m venv ENV
 ```
 
 ```bash
 source ENV/bin/activate 
 #ativando ambiente virtual 
 #deactivate
+
+#No Windows:
+ENV/Scripts/Activate.bat
 ```
 
 ```bash
